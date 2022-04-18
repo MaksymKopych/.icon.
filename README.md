@@ -1,3 +1,2 @@
-# Noir
-https://maksymkopych.github.io/Noir/
-# .icon.
+# .ICON.
+https://maksymkopych.github.io/.icon./
