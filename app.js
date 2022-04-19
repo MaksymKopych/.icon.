@@ -1,16 +1,20 @@
 // const header = document.querySelector(".header");
 // const main = document.querySelector(".main");
-// const footer = document.querySelector(".footer");
+const first = document.querySelector(".first");
+const second = document.querySelector(".second");
+const footer = document.querySelector(".footer");
 
-// setTimeout(() => {
-//   header.classList.add("glow");
-// }, 500);
-// setTimeout(() => {
-//   header.style.opacity = 1;
-//   main.classList.add("glow");
-//   footer.classList.add("glow");
-// }, 1500);
-// setTimeout(() => {
-//   main.style.opacity = 1;
-//   footer.style.opacity = 1;
-// }, 3000);
+setTimeout(() => {
+  first.classList.add("glow");
+}, 500);
+setTimeout(() => {
+  first.style.opacity = 1;
+  second.classList.add("glow");
+}, 1500);
+setTimeout(() => {
+  second.style.opacity = 1;
+  footer.classList.add("glow");
+}, 2000);
+setTimeout(() => {
+  footer.style.opacity = 1;
+}, 3000);
