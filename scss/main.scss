@@ -15,7 +15,7 @@
 body{
   @include centr();
   min-height: 100vh;
-  background-image: url(../img/background.jpeg);
+  background-image: url(../img/IMG_5363.JPG);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -45,7 +45,7 @@ body{
       }
       font-size: 3rem;
       position: relative;
-      font-weight: 400;
+      font-weight: 300;
       
     }
     p{
@@ -60,7 +60,7 @@ body{
   @include centr;
   flex-direction: column;
   gap: 50px;
-  border: 8px solid white;
+  border: 5px solid white;
   padding: 20px
 }
 .content{
@@ -87,91 +87,84 @@ body{
     @include centr;
     min-width: 75px;
     height: 75px;
-    background-image: linear-gradient(
-      135deg,
-      rgba(255, 255, 255, 0.1),
-      rgba(255, 255, 255, 0)
-    );
-    backdrop-filter: blur(10px);
+    background-image: url(../img/InstagramPNG3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
     border-radius: 20px;
-    border: 3px solid rgba(255, 255, 255, 0.9);
+    border: 2px solid rgba(255, 255, 255, 0.9);
 
   }
   &-facebook {
     @include centr;
     min-width: 75px;
     height: 75px;
-    background-image: linear-gradient(
-      135deg,
-      rgba(255, 255, 255, 0.1),
-      rgba(255, 255, 255, 0)
-    );
-    backdrop-filter: blur(10px);
+    background-image: url(../img/facebook.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
     border-radius: 20px;
-    border: 3px solid rgba(255, 255, 255, 0.9);
+    border: 2px solid rgba(255, 255, 255, 0.9);
     // box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   }
   &-booksy {
     @include centr;
     min-width: 75px;
     height: 75px;
-    background-image: linear-gradient(
-      135deg,
-      rgba(255, 255, 255, 0.1),
-      rgba(255, 255, 255, 0)
-    );
-    backdrop-filter: blur(10px);
     border-radius: 20px;
-    border: 3px solid rgba(255, 255, 255, 0.9);
+    background-image: url(../img/booksy.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: 2px solid rgba(255, 255, 255, 0.9);
 
   }
   &-maps{
     @include centr;
     min-width: 75px;
     height: 75px;
-    background-image: linear-gradient(
-      135deg,
-      rgba(255, 255, 255, 0.1),
-      rgba(255, 255, 255, 0)
-    );
-    backdrop-filter: blur(10px);
+    background-image: url(../img/icons8-google-maps-240.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
     border-radius: 20px;
-    border: 3px solid rgba(255, 255, 255, 0.9);
+    border: 2px solid rgba(255, 255, 255, 0.9);
+    background-color: white;
     // box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   }
 }
 .logo {
   &-inst {
-    width: 70%;
-    height: 70%;
-    background-image: url(../img/Instagram-logo.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+    // width: 75px;
+    // height: 75px;
+    // background-image: url(../img/InstagramPNG3.png);
+    // background-repeat: no-repeat;
+    // background-size: contain;
+    // background-position: center;
   }
   &-booksy {
-    width: 70%;
-    height: 70%;
-    background-image: url(../img/Booksy_Logomark.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+    // width: 100%;
+    // height: 100%;
+    // background-image: url(../img/booksy.png);
+    // background-repeat: no-repeat;
+    // background-size: contain;
+    // background-position: center;
   }
   &-facebook {
-    width: 70%;
-    height: 70%;
-    background-image: url(../img/Facebook-icon.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+    // width: 100%;
+    // height: 100%;
+    // background-image: url(../img/facebook.png);
+    // background-repeat: no-repeat;
+    // background-size: contain;
+    // background-position: center;
   }
   &-maps{
-    width: 70%;
-    height: 70%;
-    background-image: url(../img/icons8-google-maps-240.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+    // width: 100%;
+    // height: 100%;
+    // background-image: url(../img/icons8-google-maps-240.png);
+    // background-repeat: no-repeat;
+    // background-size: contain;
+    // background-position: center;
   }
 }
 .footer {
